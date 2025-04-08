@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
+  </html></title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=delete" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sort" />
+  <style>
+    header, footer { 
+        background: gray; 
+        padding: 10px 20px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between; 
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        font-size: 24px;
+        margin: 0;
+        cursor: pointer;
+        height: 50px;
+    }
+
+    header {
+        top: 0;
+    }
+    .search { 
+        flex: 1; 
+        margin: 0 20px; 
+    }
+
+    .search input { 
+        width: 80%; 
+        padding: 8px;
+        margin-left: 65px; 
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      height: 120vh;
+    }
+    header, footer {
+      background: #444;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    .product-images {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .product-images img {
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-bottom: 25px;
+    }
+    .label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .rating {
+      color: gold;
+      font-size: 20px;
+    }
+    .reviews {
+      background: #f1f1f1;
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+    .reviews p {
+      margin: 10px 0;
+    }
+    footer {
+    background: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    transform: translateY();
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    height: 120px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+  </style>
+</head>
+<body>
+
+    <header>
+        <div><h3>Logo</h3></div>
+        <div class="search">
+          <input type="text" placeholder="Пошук...">
+        </div>
+        <div>
+          <div class="icons">
+              <span class="material-symbols-outlined">account_circle</span>
+              <span title="Корзина" class="material-symbols-outlined">shopping_cart</span>
+              <span class="material-symbols-outlined">delete</span>
+              <a href="index.html"><span class="material-symbols-outlined">sort</span></a>
+          </div>
+        </div>
+      </header>
+      
+      <div class="icons">
+        <span class="material-symbols-outlined">account_circle</span>
+        <span title="Корзина" class="material-symbols-outlined">shopping_cart</span>
+        <span class="material-symbols-outlined">delete</span>
+        <a href="index.html"><span class="material-symbols-outlined">sort</span></a>
+    </div>
+
+<main>
+  <div class="section1">
+    <div class="label">Названи:</div>
+    <div><h2>Течис Крутой</h2></div>
+  </div>
+
+  <div class="section">
+    <div class="label">Цена:</div>
+    <div>₴999</div>
+  </div>
+  
+
+
+  <div class="section">
+    <div class="label">Опис:</div>
+    <div>Не совету. покупать этот товар,если вы человек</div>
+  </div>
+
+  <div class="section">
+    <div class="label">Фотографії товару:</div>
+    <div class="product-images">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReF3JT7eBLwDEY-v2MmB50h0Ts0Q7B85JF4g&s" alt=>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="label">Характеристики:</div>
+    <ul>
+      <li>Тип: Течис</li>
+      <li>Материал: не крутой</li>
+      <li>Рфзмер: 10 на 10</li>
+      <li>Вес: 500 г</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="label">Рейтинг:</div>
+    <div class="rating">⭐️⭐️⭐️⭐️⭐️</div>
+  </div>
+
+  <div class="section">
+    <div class="label">Відгуки:</div>
+    <div class="reviews">
+      <p><strong>робокоп:</strong> 5 звезд фигня товар</p>
+      <p><strong>мипанегерой:</strong> я как настоящий мипанегерой говорю чо фигня товар</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+    <div class="footer-top">
+      <div>📧 Контакти: example@email.com</div>
+      <div>📱 <a href="#">Instagram</a> | <a href="#">Facebook</a></div>
+      <div><a href="#">Умови використання</a> | <a href="#">Політика сайту</a></div>
+    </div>
+    <div class="footer-bottom">© 2023–2025</div>
+  </footer>
+  
+
+</body>
+</html>
